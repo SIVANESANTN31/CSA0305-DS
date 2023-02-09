@@ -9,10 +9,10 @@ printf("Enter the number2 : ");
 scanf("%d",&b);
 printf("Enter the number3 : ");
 scanf("%d",&c);
-if(a>b || a>c){
+if(a>b && a>c){
 printf("%d is greatest number.",a);
 }
-else if(b>c || b>a){
+else if(b>c && b>a){
 printf("%d is greatest number.",b);
 }
 else{
